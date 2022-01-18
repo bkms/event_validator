@@ -1,0 +1,6 @@
+{"event_type": {"type": "integer", "nullable": false}}
+{"event_time": {"type": "timestamp", "nullable": false, "format": "%Y-%m-%d %H:%M:%S"}}
+{"data": {"type": "jsonb", "nullable": true, "contents": ["user_email", "phone_number"]}}
+{"processing_date": {"type": "date", "nullable": false, "format": "%Y-%m-%d"}}
+{"user_email": {"type": "string", "nullable": true}}
+{"phone_number": {"type": "integer", "nullable": true}}
